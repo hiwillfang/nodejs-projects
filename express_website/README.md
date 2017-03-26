@@ -1,1 +1,2 @@
 # Simple Express.js Web App
+Web app built with Express.js. The focus of this app is strictly for routing and parsing data using Jade templating engine and creating a functional contact form using node mailer.
