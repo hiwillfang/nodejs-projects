@@ -1,5 +1,5 @@
 # Node Blog System App
-Simple node.js blog stystem application built with:
+Simple node.js blog system application built with:
 * Node.js
 * MongoDB
 * Monk ORM
