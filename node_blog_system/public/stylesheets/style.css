@@ -1,8 +1,75 @@
+/** ===================================
+	GLOBAL STYLES
+==================================== **/
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #f4f4f4;
+  color: #666;
+}
+
+.container {
+	width: 960px;
+	border: 1px solid #ccc;
+	margin: 2em auto;
+	padding: 2em 0;
+	border-top: #83cd39 3px solid;
+}
+
+.logo {
+	text-align: center;
+	margin: auto;
+	display: block;
+	max-width: 35%;
+	width: 35%;
+}
+
+.clear {
+	clear: both;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+h1,h2,h3,p {
+	padding: .2em 0;
+	margin-bottom: 0;
+}
+
+p {
+	margin: 0;
 }
 
 a {
   color: #00B7FF;
+}
+
+/** ===================================
+	NAV STYLES
+==================================== **/
+nav {
+	backgrounds: #404137;
+	overflow: hidden;
+	height: 40px;
+	padding: 1em 0;
+	font-size: 1.2 em;
+	text-align: center;
+	background: #ddd;
+	margin: .5em 0;
+}
+
+nav ul li {
+	display: inline;
+	margin: .5em;
+}
+
+nav ul li a {
+	text-decoration: none;
+	vertical-align: middle;
+	font-size: 1.2em;
+}
+
+nav ul li a:hover {
+	color: #83cd39;
 }
